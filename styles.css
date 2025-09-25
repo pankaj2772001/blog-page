@@ -48,7 +48,13 @@
 
 section {
   display: flex;
+  flex-wrap: wrap;
+
   padding: 3rem;
+}
+
+section > div {
+  flex: 1 1 300px;
 }
 
 .blog-image {
